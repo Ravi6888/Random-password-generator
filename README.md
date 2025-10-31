@@ -37,6 +37,8 @@ A simple Python script to generate strong random passwords, helping you quickly 
 
 $ python3 Random_password_generator.py
 
+<img width="346" height="250" alt="image" src="https://github.com/user-attachments/assets/9963fc36-e23d-48fa-95ca-c4c3245aade9" />
+
    
 Feel free to copy the generated password and use it wherever you need a strong credential.
 
