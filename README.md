@@ -24,14 +24,21 @@ A simple Python script to generate strong random passwords, helping you quickly 
 	How to Run / Execute the Project
 
 1.	Clone this repository:
-2.	git clone https://github.com/Ravi6888/Random-password-generator.git
-3.	cd Random-password-generator
-4.	Make sure you have Python 3 installed:
-5.	python3 --version
-6.	Run the script:
-7.	python3 Random_password_generator.py
-8.	When prompted, enter the desired length of password (e.g., 12) and press Enter.
-9.	The script outputs a randomly generated password of that length.
+   
+	git clone https://github.com/Ravi6888/Random-password-generator.git
+	
+      cd Random-password-generator
+
+2.	Make sure you have Python 3 installed:
+	
+      python3 --version
+
+3.	Run the script:
+	
+      python3 Random_password_generator.py
+
+4.	When prompted, enter the desired length of password (e.g., 12) and press Enter.
+5.	The script outputs a randomly generated password of that length.
 
 	Usage Example
 
