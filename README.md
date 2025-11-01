@@ -1,60 +1,96 @@
-# Random-password-generator
-Random Password Generator
+<h1 align="center">Random Password Generator</h1>
 
-A simple Python script to generate strong random passwords, helping you quickly create secure credentials for accounts and applications.
+<p align="center">
+  <b>A simple Python script to generate strong, secure, and random passwords.</b><br>
+  Helps you create reliable credentials for accounts and applications in seconds.
+</p>
 
-	Features
+<hr>
 
-•	Generates a random password of user-specified length.
+<h2>➤ Project Overview</h2>
+<p>
+This project is a simple yet powerful <b>Python-based Random Password Generator</b> designed to create secure passwords of customizable lengths.<br>
+It uses <b>uppercase and lowercase letters, digits, and special characters</b> to ensure high password strength.<br>
+The program is lightweight, platform-independent, and requires only Python’s built-in libraries.
+</p>
 
-•	The password includes uppercase letters, lowercase letters, digits and special characters to enhance security.
+<hr>
 
-•	Easy to use: just run the script and follow the prompt.
+<h2>➤ Features</h2>
+<ul>
+  <li> Generates random passwords of user-defined length.</li>
+  <li> Includes uppercase, lowercase, digits, and special characters for strong security.</li>
+  <li> Easy to use: just run the script and follow on-screen prompts.</li>
+  <li> No external dependencies — uses only Python’s standard library.</li>
+</ul>
 
-•	No external dependencies beyond Python’s standard library.
+<hr>
 
-	Tech Stack / Requirements
+<h2>➤ Tech Stack / Requirements</h2>
+<ul>
+  <li> <b>Language:</b> Python (tested with Python 3.x)</li>
+  <li> <b>Libraries:</b> Only built-in modules (<code>string</code>, <code>random</code>, etc.)</li>
+  <li> <b>Operating System:</b> Works on Windows, macOS, and Linux (any OS with Python installed)</li>
+</ul>
 
-•	Language: Python (tested with Python 3.x)
+<hr>
 
-•	Libraries: only built-in modules (string, random, etc)
+<h2>➤ How to Run / Execute the Project</h2>
 
-•	Operating System: Platform-agnostic (Windows, macOS, Linux) as long as Python is installed.
+<ol>
+  <li><b>Clone this Repository</b>
+    <pre>
+git clone https://github.com/Ravi6888/Random-password-generator.git
+cd Random-password-generator
+    </pre>
+  </li>
 
-	How to Run / Execute the Project
+  <li><b>Check Python Installation</b>
+    <pre>
+python3 --version
+    </pre>
+  </li>
 
-1.	Clone this repository:
-   
-	git clone https://github.com/Ravi6888/Random-password-generator.git
-	
-      cd Random-password-generator
+  <li><b>Run the Script</b>
+    <pre>
+python3 Random_password_generator.py
+    </pre>
+  </li>
 
-2.	Make sure you have Python 3 installed:
-	
-      python3 --version
+  <li><b>Generate a Password</b>
+    <p>When prompted, enter your desired password length (e.g., <code>12</code>) and press Enter.<br>
+    The program will output a randomly generated password of that length.</p>
+  </li>
+</ol>
 
-3.	Run the script:
-	
-      python3 Random_password_generator.py
+<hr>
 
-4.	When prompted, enter the desired length of password (e.g., 12) and press Enter.
-5.	The script outputs a randomly generated password of that length.
+<h2>➤ Usage Example</h2>
+<pre>
+<p align="center"><i><img width="502" height="363" alt="Screenshot 2025-10-31 115515" src="https://github.com/user-attachments/assets/c4fff799-9c6b-4ba8-a2d9-c111b79b052c" />
+</i></p>
+</pre>
 
-	Usage Example
 
-$ python3 Random_password_generator.py
 
-<img width="346" height="250" alt="image" src="https://github.com/user-attachments/assets/9963fc36-e23d-48fa-95ca-c4c3245aade9" />
+<p>Feel free to copy the generated password and use it wherever a strong credential is needed.</p>
 
-   
-Feel free to copy the generated password and use it wherever you need a strong credential.
+<hr>
 
-	Customization Ideas
+<h2>➤ Customization Ideas</h2>
+<ul>
+  <li> Add options to exclude similar-looking characters (e.g., “0” vs “O”, “1” vs “l”).</li>
+  <li> Introduce command-line flags (e.g., <code>--length=20</code>, <code>--no-symbols</code>).</li>
+  <li> Save generated passwords securely to a file or clipboard.</li>
+  <li> Build a GUI or web interface for non-terminal users.</li>
+</ul>
 
-•	Add options for excluding similar‐looking characters (e.g., “0” vs “O”, “1” vs “l”).
+<hr>
 
-•	Include a command-line flag interface (e.g., --length=20, --no-symbols).
 
-•	Save generated passwords (securely!) to a file or clipboard.
 
-•	Build a GUI or web interface around it for non-terminal users.
+<hr>
+
+<p align="center">
+⭐ <i>If you found this project useful, consider giving it a star!</i> ⭐
+</p>
